@@ -38,12 +38,13 @@ class ChatBox extends React.Component{
                         type="button"
                         onClick={this.props.toggleGif}
                     >
-                        <i className="fa fa-image"/> GIF
+                        <i className="fa fa-image"/>
                     </button>
                 </div>
                 <input
+                    dir="rtl"
                     className="form-control"
-                    placeholder="Type message"
+                    placeholder="הקלד כאן..."
                     value={this.state.message}
                     onChange={this.onChange.bind(this)}
                     onKeyUp={this.onKeyUp.bind(this)}

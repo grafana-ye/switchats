@@ -62,7 +62,7 @@ class Messages extends React.Component {
           })
         ) : (
           <div className="no-message">
-            Please Wait While We connect you with someone
+            מנסים למצוא לך שותף לשיחה
           </div>
         )}
         {this.state.gif ? (

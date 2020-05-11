@@ -16,7 +16,7 @@ class Chat extends React.Component {
         : this.generateUID(),
       chat_ready: false,
       messages: [],
-      friendUser: "Connecting",
+      friendUser: "מחפש משתתף",
       message: "",
     };
   }

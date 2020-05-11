@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Montserrat');
 html,
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', light;
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     height: 100%;
     width: 100%;
     margin: 0px;
@@ -19,6 +22,7 @@ body {
         position: relative;
         height: 100%;
         width: 100%;
+        
     }
     .chat {
         display: block;
@@ -110,4 +114,34 @@ body {
             }
         }
     }
+    .btn-grad{
+        width: 167px;
+        height: 52px;
+        border-radius: 36px;
+        background-image: linear-gradient(90deg, #ed568e 0%, #746bc5 49%, #1d7aee 100%);
+        color: white;
+        font-size: 25px;
+        border: 0px;
+    }
+    .chooseForm{
+        background-color: white;
+        padding: 20px;
+    }
+    .formName{
+        font-size: 33px;
+        color: #486890;
+        font-family: "Rubik";
+        font-weight: 500;
+    }
+    .form-control{
+        border-radius: 8px;
+        background-color: #f3f8ff;
+        font-size: 25px;
+        color: #bbc8db;
+        font-weight: 400;
+    }
+    .form-control::placeholder{
+        color: #bbc8db;
+    }
+
 }

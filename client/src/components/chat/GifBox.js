@@ -9,7 +9,7 @@ class GifBox extends React.Component {
       query: "",
       GIFs: [],
       offset: 0,
-      message: "Input a query to search related gif results",
+      message: "הכנס טקסט כדי למצוא תמונות רלוונטיות",
     };
   }
 
@@ -122,12 +122,13 @@ class GifBox extends React.Component {
               type="button"
               onClick={this.props.toggleGif}
             >
-              <i className="fa fa-comment" /> Messages
+              <i className="fa fa-comment" /> חזור להודעות
             </button>
           </div>
           <input
+            dir="rtl"
             className="form-control"
-            placeholder="Search Gif"
+            placeholder="חפש Gif"
             value={this.state.query}
             onChange={this.onChange.bind(this)}
             onKeyUp={this.onKeyUp.bind(this)}
