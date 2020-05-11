@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Montserrat');
 html,
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', 'Montserrat', sans-serif;
     height: 100%;
     width: 100%;
     margin: 0px;
     padding: 0px;
 }
-
+.login-screen{
+    background-image: url('./assets/Home/1.png');
+}
 #root {
     position: relative;
     height: 100%;

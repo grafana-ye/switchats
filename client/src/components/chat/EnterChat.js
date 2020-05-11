@@ -26,7 +26,7 @@ class EnterChat extends React.Component{
 
     render(){
         return(
-            <div className="enter-chat d-flex justify-content-center align-items-center">
+            <div className="login-screen enter-chat d-flex justify-content-center align-items-center">
                 <form className="col-xs-12 col-sm-12 col-md-6 col-lg-4" onSubmit={this.changeUsername.bind(this)}>
                     <React.Fragment>
                         <div className="input-group ">
