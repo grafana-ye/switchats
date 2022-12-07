@@ -16,7 +16,7 @@
     "license": "ISC",
     "dependencies": {
         "axios": "^0.19.2",
-        "express": "^4.17.1",
+        "express": "^4.18.2",
         "moment": "^2.25.3",
         "react-moment": "^0.9.7",
         "react-router-dom": "^5.1.2",
